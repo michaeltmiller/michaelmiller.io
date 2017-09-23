@@ -12,7 +12,8 @@ const ProjectDescription = ({ project, media }) => (
 
     <div className={styles.information}>
     <h1>{project.title}</h1>
-      <p>{project.text}</p>
+    <br/>
+      <div dangerouslySetInnerHTML={{ __html: project.text }} />
     </div>
   </Wrapper>
 );

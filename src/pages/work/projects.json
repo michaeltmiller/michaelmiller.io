@@ -1,32 +1,38 @@
 [
     {
         "className": "trello",
-        "description": "stuff goes here about things and whatnot",
-        "lol": "here is where the technical details go dfdfdfd fd f df d f d f d fd f d f",
+        "description": "A clone of the Trello webapp built in AngularJS",
         "links": {
           "website": "http://michaelmiller.io/trelloclone"      
       },
-        "slug": "click-childcare",
-        "title": "Click Childcare",
+        "slug": "trello",
+        "title": "Trello Clone",
         "images": {
-          "image1": "click",
-          "image2": "click",
-          "image3": "click"
+          "image1": "trello1",
+          "image2": "trello2",
+          "image3": "trello3",
+          "image4": "trello4",
+          "image5": "trello5"
         },
-        "text": "this is how i pulled off this amazing feat of devlopment",
+        "tech":{
+          "presentation": "SASS, CSS, HTML, Bootstrap, Angular UI ",
+          "javascript": "AngularJS, ES6",
+          "server": "Node, Express, MassiveJs, PostgreSQL",
+          "other": "Gulp, Babel"
+        },
+        "text": "<p>Recreates Trello's popular drag and drop feature to reorder both lists and individual cards. <br/><br/> Express/Node server connected to SQL database enables collaboration amongst teams and individuals.<br/><br/>Supports keyword searching as well as label based filtering.</p>",
         "cover": {
-          "source": "click",
-          "alternative": "cover"
+          "source": "trellocover",
+          "alternative": "Trello"
          },
         "theme": {
-          "background": "#00a5d1",
-          "light": true
+          "background": "#0079BF",
+          "light": "true"
         }
       },
       {
         "className": "test2",
         "description": "stuff goes here about things and whatnot",
-        "lol": "here is where the technical details go dfdfdfd fd f df d f d f d fd f d f",
         "links": {
           "website": "http://michaelmiller.io/trelloclone"      
           },
@@ -44,7 +50,7 @@
          },
         "theme": {
           "background": "#EEEEEE",
-          "light": false
+          "light": ""
         }
       }     
   ]

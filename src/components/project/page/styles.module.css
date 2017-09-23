@@ -12,7 +12,3 @@
   padding-top: 10vh;
 }
 
-.chadstone {
-  composes: chadstone from "../themes.module.css";
-  composes: page;
-}

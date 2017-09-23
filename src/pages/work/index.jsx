@@ -33,6 +33,12 @@ query AllProjectQuery {
             description
             text
             title
+            tech{
+              presentation
+              javascript
+              server
+              other
+            }
             links{
               website
             }

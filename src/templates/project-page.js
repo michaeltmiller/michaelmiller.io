@@ -9,48 +9,43 @@ import { ProjectDescription, ProjectIntro, ProjectPage } from '../components/pro
 
 import styles from './styles.module.css';
 
-// const images = {
-//   desktop: [
-//     { src: require('./img/centre-detail.png'), description: 'KindyNow centre detail' },
-//     { src: require('./img/attendees.png'), description: 'KindyNow attendees list' },
-//     { src: require('./img/centre-list.png'), description: 'KindyNow centre list' },
-//     { src: require('./img/stats.png'), description: 'KindyNow centre stats' },
-//     { src: require('./img/login.png'), description: 'KindyNow login' },
-//   ],
-//   mobile: [
-//     { src: require('./img/mobile-centre-detail.png'), description: 'kindyNow centre detail rooms' },
-//     { src: require('./img/mobile-centre-detail-rooms.png'), description: 'kindyNow centre detail' },
-//     { src: require('./img/mobile-attendees.png'), description: 'kindyNow attendees list' },
-//     { src: require('./img/mobile-centre-list.png'), description: 'kindyNow centre list' },
-//     { src: require('./img/mobile-calendar.png'), description: 'kindyNow calendar date picker' },
-//   ],
-// };
 
 export default ({ data, location }) => {
 const icon = require(`./img/${data.projectsJson.cover.source}.png`)
 const images = [
-  { src: require(`./img/${data.projectsJson.images.image1}.png`), description: 'kindyNow centre detail rooms' },
-  { src: require(`./img/${data.projectsJson.images.image2}.png`), description: 'kindyNow centre detail rooms2' },
-  { src: require(`./img/${data.projectsJson.images.image3}.png`), description: 'kindyNow centre detail rooms4' },
-  { src: require(`./img/${data.projectsJson.images.image3}.png`), description: 'kindyNow centre detail rooms3' },
-  { src: require(`./img/${data.projectsJson.images.image3}.png`), description: 'kindyNow centre detail rooms5' }
+  { src: require(`./img/${data.projectsJson.images.image1}.png`), description: 'image' },
+  { src: require(`./img/${data.projectsJson.images.image2}.png`), description: 'image2' },
+  { src: require(`./img/${data.projectsJson.images.image3}.png`), description: 'image4' },
+  { src: require(`./img/${data.projectsJson.images.image4}.png`), description: 'image3' },
+  { src: require(`./img/${data.projectsJson.images.image5}.png`), description: 'image5' }
 ]
-const screenshots = [
-  { src: "http://via.placeholder.com/1000x640" , description: 'kindyNow centre detail rooms' },
-  { src: "http://via.placeholder.com/1000x640", description: 'kindyNow centre detail rooms2' },
-  { src: "http://via.placeholder.com/350x150", description: 'kindyNow centre detail rooms3' }
-]
+
   const image = (
     <div className={styles.image}>
       <img src={icon}  alt={data.projectsJson.cover.alternative} />
     </div>
   );
+  const techused= (
+    <aside className={styles.skills}>
+    <div>
+      <h3>Tech Used:</h3>
+      <h4>Presentation</h4>
+      <p>{data.projectsJson.tech.presentation}</p>
+      <h4>Javascript</h4>
+      <p>{data.projectsJson.tech.javascript}</p>
+      <h4>Server</h4>
+      <p>{data.projectsJson.tech.server}</p>
+      <h4>Other</h4>
+      <p>{data.projectsJson.tech.other}</p>
+    </div>
 
+  </aside>
+  )
 
   return (
     <ProjectPage project={data.projectsJson} location={location}>
       <ProjectIntro project={data.projectsJson} media={image} />
-      <ProjectDescription project={data.projectsJson}>
+      <ProjectDescription media={techused} project={data.projectsJson}>
       </ProjectDescription>
       <Wrapper>
         <Macbook>
@@ -73,6 +68,14 @@ query ProjectPageQuery($slug: String!) {
           image1
           image2
           image3
+          image4
+          image5
+        }
+        tech{
+          presentation
+          javascript
+          server
+          other
         }
         links{
             website
@@ -80,6 +83,7 @@ query ProjectPageQuery($slug: String!) {
         slug
         theme{
             background
+            light
         }
         cover{
             source
@@ -89,11 +93,3 @@ query ProjectPageQuery($slug: String!) {
 }
 `
 
-// query BlogPostQuery($slug: String!) {
-//   markdownRemark(fields: { slug: { eq: $slug } }) {
-//     html
-//     frontmatter {
-//       title
-//     }
-//   }
-// }
