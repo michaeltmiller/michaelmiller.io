@@ -1,0 +1,50 @@
+[
+    {
+        "className": "trello",
+        "description": "stuff goes here about things and whatnot",
+        "lol": "here is where the technical details go dfdfdfd fd f df d f d f d fd f d f",
+        "links": {
+          "website": "http://michaelmiller.io/trelloclone"      
+      },
+        "slug": "click-childcare",
+        "title": "Click Childcare",
+        "images": {
+          "image1": "click",
+          "image2": "click",
+          "image3": "click"
+        },
+        "text": "this is how i pulled off this amazing feat of devlopment",
+        "cover": {
+          "source": "click",
+          "alternative": "cover"
+         },
+        "theme": {
+          "background": "#00a5d1",
+          "light": true
+        }
+      },
+      {
+        "className": "test2",
+        "description": "stuff goes here about things and whatnot",
+        "lol": "here is where the technical details go dfdfdfd fd f df d f d f d fd f d f",
+        "links": {
+          "website": "http://michaelmiller.io/trelloclone"      
+          },
+        "slug": "stuff2",
+        "title": "Stuff here test",
+        "images": {
+          "image1": "clickplace",
+          "image2": "clickplace",
+          "image3": "clickplace"
+        },
+        "text": "this is how i pulled off this amazing feat of devlopment",
+        "cover": {
+          "source": "click",
+          "alternative": "cover"
+         },
+        "theme": {
+          "background": "#EEEEEE",
+          "light": false
+        }
+      }     
+  ]

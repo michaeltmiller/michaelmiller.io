@@ -1,0 +1,29 @@
+@import '../../css/variables.css';
+
+
+.contact a {
+  border-bottom: 0;
+}
+.contact {
+  color: var(--colorWhite);  
+}
+.lineBreak {
+  height: 3px;
+  width: 100px;
+  background: var(--colorWhite);
+  margin: calc(var(--gutter) * 2.5) 0;
+}
+
+.email {
+  font-size: 1.333rem;
+}
+
+.link:hover {
+  border-bottom: 1px solid;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: calc(var(--gutter) * 1.5);
+}
+

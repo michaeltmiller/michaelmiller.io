@@ -1,0 +1,51 @@
+@import '../../../css/variables.css';
+
+.panel {
+  display: flex;
+  font-size: 1.125rem;
+}
+
+/* .inner:nth-of-type(odd) {
+  background-position: 75% center !important;
+} */
+/* .inner:nth-child(even) {
+  background-position: 25% center !important;
+} */
+
+.inner {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: center;
+  height: 30vh;
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: calc(5 / var(--columnCount) * 100%);
+  padding-right: var(--gutter);
+  margin-right: auto;
+}
+
+.panel:nth-child(even) .content {
+  margin-left: calc(7 / var(--columnCount) * 100%);
+  padding-right: 0;
+}
+
+
+@media (--small) {
+  .inner {
+    background-image: none !important;
+    height: 20vh;
+    min-height: 200px;
+  }
+
+  .content {
+    width: calc(12 / var(--columnCount) * 100%);
+    padding-right: 0;
+    height: auto;
+    margin-left: 0 !important;
+  }
+}

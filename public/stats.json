@@ -1,0 +1,78 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-work-index-jsx": [
+      "component---src-pages-work-index-jsx-85d9500e377f4cce5a40.js",
+      "component---src-pages-work-index-jsx-85d9500e377f4cce5a40.js.map"
+    ],
+    "path---work": [
+      "path---work-d3acff970d2c7b030c23.js",
+      "path---work-d3acff970d2c7b030c23.js.map"
+    ],
+    "component---src-templates-project-page-js": [
+      "component---src-templates-project-page-js-2fef7220be6150c49ced.js",
+      "component---src-templates-project-page-js-2fef7220be6150c49ced.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-b1798771595d7321955b.js",
+      "component---src-layouts-index-jsx-b1798771595d7321955b.js.map"
+    ],
+    "component---src-pages-contact-index-jsx": [
+      "component---src-pages-contact-index-jsx-aca2c0bb1e931e5e03df.js",
+      "component---src-pages-contact-index-jsx-aca2c0bb1e931e5e03df.js.map"
+    ],
+    "component---src-pages-about-index-jsx": [
+      "component---src-pages-about-index-jsx-b3ba057094f15a887729.js",
+      "component---src-pages-about-index-jsx-b3ba057094f15a887729.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "commons": [
+      "commons-ddea19ef2d6d40a1fe14.js",
+      "build-js-styles.css",
+      "commons-ddea19ef2d6d40a1fe14.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-jsx": [
+      "component---src-pages-404-jsx-736d65975acbcb9081be.js",
+      "component---src-pages-404-jsx-736d65975acbcb9081be.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-326554180ed7f0609453.js",
+      "component---src-pages-index-jsx-326554180ed7f0609453.js.map"
+    ],
+    "path---work-click-childcare": [
+      "path---work-click-childcare-836c3755767eee7abe32.js",
+      "path---work-click-childcare-836c3755767eee7abe32.js.map"
+    ],
+    "app": [
+      "app-067becac8bc497e6e3a1.js",
+      "app-067becac8bc497e6e3a1.js.map"
+    ],
+    "path---work-stuff-2": [
+      "path---work-stuff-2-e3b2ecbb547e89a54e0f.js",
+      "path---work-stuff-2-e3b2ecbb547e89a54e0f.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}

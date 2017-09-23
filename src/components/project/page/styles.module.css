@@ -1,0 +1,18 @@
+@import '../../../css/variables.css';
+
+.panel {
+  height: 33vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  min-height: calc(100vh - var(--headerHeight));
+  padding-top: 10vh;
+}
+
+.chadstone {
+  composes: chadstone from "../themes.module.css";
+  composes: page;
+}
