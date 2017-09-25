@@ -13,7 +13,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-json`,
-    `gatsby-plugin-sharp`,  
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {

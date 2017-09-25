@@ -6,6 +6,10 @@ import styles from './styles.module.css';
 import '../css/reset.css';
 import '../css/document.css';
 import '../css/typography.css';
+import '../font/lt-book.woff';
+import '../font/lt-book.woff2';
+import '../font/medium.woff';
+import '../font/medium.woff2';
 
 const Layout = ({ children, location }) => {
   // Need to pass in location here on build. On development the props come from the individual /pages.

@@ -1,9 +1,10 @@
 @import './variables.css';
 
+
 @font-face {
     font-family: 'Book';
-    src: url('../font/lt-book.woff2') format('woff2'),
-         url('../font/lt-book.woff') format('woff');
+    src: url( '../font/lt-book.woff2') format('woff2'),
+         url( '../font/lt-book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

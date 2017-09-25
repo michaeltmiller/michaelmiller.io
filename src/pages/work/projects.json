@@ -1,56 +1,98 @@
 [
-    {
-        "className": "trello",
-        "description": "A clone of the Trello webapp built in AngularJS",
-        "links": {
-          "website": "http://michaelmiller.io/trelloclone"      
-      },
-        "slug": "trello",
-        "title": "Trello Clone",
-        "images": {
-          "image1": "trello1",
-          "image2": "trello2",
-          "image3": "trello3",
-          "image4": "trello4",
-          "image5": "trello5"
-        },
-        "tech":{
-          "presentation": "SASS, CSS, HTML, Bootstrap, Angular UI ",
-          "javascript": "AngularJS, ES6",
-          "server": "Node, Express, MassiveJs, PostgreSQL",
-          "other": "Gulp, Babel"
-        },
-        "text": "<p>Recreates Trello's popular drag and drop feature to reorder both lists and individual cards. <br/><br/> Express/Node server connected to SQL database enables collaboration amongst teams and individuals.<br/><br/>Supports keyword searching as well as label based filtering.</p>",
-        "cover": {
-          "source": "trellocover",
-          "alternative": "Trello"
-         },
-        "theme": {
-          "background": "#0079BF",
-          "light": "true"
-        }
-      },
-      {
-        "className": "test2",
-        "description": "stuff goes here about things and whatnot",
-        "links": {
-          "website": "http://michaelmiller.io/trelloclone"      
-          },
-        "slug": "stuff2",
-        "title": "Stuff here test",
-        "images": {
-          "image1": "clickplace",
-          "image2": "clickplace",
-          "image3": "clickplace"
-        },
-        "text": "this is how i pulled off this amazing feat of devlopment",
-        "cover": {
-          "source": "click",
-          "alternative": "cover"
-         },
-        "theme": {
-          "background": "#EEEEEE",
-          "light": ""
-        }
-      }     
-  ]
+  {
+    "className": "trello",
+    "description": "A clone of the Trello webapp built in AngularJS",
+    "links": {
+      "website": "http://michaelmiller.io/trelloclone"
+    },
+    "slug": "trello",
+    "title": "Trello Clone",
+    "images": {
+      "image1": "trello1",
+      "image2": "trello2",
+      "image3": "trello3",
+      "image4": "trello4",
+      "image5": "trello5"
+    },
+    "tech": {
+      "presentation": "SASS, CSS, HTML, Bootstrap, Angular UI ",
+      "javascript": "AngularJS, ES6",
+      "server": "Node, Express, MassiveJs, PostgreSQL",
+      "other": "Gulp, Babel"
+    },
+    "text":
+      "<p>Recreates Trello's popular drag and drop feature to reorder both lists and individual cards. <br/><br/> Express/Node server connected to SQL database enables collaboration amongst teams and individuals.<br/><br/>Supports keyword searching as well as label based filtering.</p>",
+    "cover": {
+      "source": "trellocover",
+      "alternative": "Trello"
+    },
+    "theme": {
+      "background": "#0079BF",
+      "light": "true"
+    }
+  },
+   {
+    "className": "wildlife",
+    "description": "A E-commerce site for local artist I contributed to in a team of several devlopers.",
+    "links": {
+      "website": "http://michaelmiller.io/wildlife"
+    },
+    "slug": "wildlife",
+    "title": "Wildlife Artistry",
+    "images": {
+      "image1": "wildlife1",
+      "image2": "wildlife2",
+      "image3": "wildlife3",
+      "image4": "wildlife4",
+      "image5": "wildlife5"
+    },
+    "tech": {
+      "presentation": "SASS, CSS, HTML, Foundation, Foundation for Emails ",
+      "javascript": "AngularJS, ES6",
+      "server": "Node, Express, MassiveJs, PostgreSQL, EJS",
+      "other": "Gulp, Babel, Nodemailer"
+    },
+    "text":
+      "<p>My primary contributions include:<br/>-Adapting several Foundation templates for use in the product-details and cart views.<br/>-Building server side architecture including RESTful API endpoints. <br/>-Writing PostgreSQL queries taking advantage of aggregate functions to improve performance.</br>-Creating automated order confirmation email system to send responsively styled custom emails.</p>",
+    "cover": {
+      "source": "wildlifecover",
+      "alternative": "Wildlife"
+    },
+    "theme": {
+      "background": "#fff0dd",
+      "light": ""
+    }
+  },
+  {
+    "className": "hackernews",
+    "description": "A clone of the Y-Cominator's forum section (Hacker News) built in AngularJs",
+    "links": {
+      "website": "http://michaelmiller.io/hackernewsclone"
+    },
+    "slug": "hackernews",
+    "title": "Hacker News Clone",
+    "images": {
+      "image1": "hn1",
+      "image2": "hn2",
+      "image3": "hn3",
+      "image4": "hn4",
+      "image5": "hn5"
+    },
+    "tech": {
+      "presentation": "SASS, CSS, HTML",
+      "javascript": "AngularJS",
+      "server": "N/A",
+      "other": "Gulp"
+    },
+    "text":
+      "<p>A serverless clone of Hacker News' brutalist design.<br/><br/>Pulls data from third-party API and leverages recursive Angular directives to recreate fully collapsable nested tree comment structure.</p>",
+    "cover": {
+      "source": "hackernewscover",
+      "alternative": "Hacker News"
+    },
+    "theme": {
+      "background": "#FF6600",
+      "light": ""
+    }
+  }
+]

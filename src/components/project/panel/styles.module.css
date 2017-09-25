@@ -14,7 +14,7 @@
 
 .inner {
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: contain; */
   background-position-y: center;
   height: 30vh;
   min-height: 240px;

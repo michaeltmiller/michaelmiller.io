@@ -9,7 +9,6 @@
     "gatsby": "^1.8.4",
     "gatsby-link": "^1.6.7",
     "gatsby-plugin-google-analytics": "^1.0.3",
-    "gatsby-plugin-sharp": "^1.6.7",
     "gatsby-source-filesystem": "^1.4.12",
     "gatsby-transformer-json": "^1.0.6",
     "react-github-button": "^0.1.11",
