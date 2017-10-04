@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Icon from '../../icon';
 import OutboundLink from '../../outbound-link';
 import Wrapper from '../../wrapper';
 
