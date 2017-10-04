@@ -3,7 +3,8 @@
     "className": "trello",
     "description": "A clone of the Trello webapp built in AngularJS",
     "links": {
-      "website": "http://michaelmiller.io/trelloclone"
+      "website": "http://trello.michaelmiller.io",
+      "repo": "https://github.com/michaeltmiller/trelloclone"
     },
     "slug": "trello",
     "title": "Trello Clone",
@@ -35,7 +36,8 @@
     "className": "wildlife",
     "description": "A E-commerce site for local artist I contributed to in a team of several devlopers.",
     "links": {
-      "website": "http://michaelmiller.io/wildlife"
+      "website": "http://wildlife.michaelmiller.io",
+      "repo": "https://github.com/art-portfolio-store/wildlife-website"
     },
     "slug": "wildlife",
     "title": "Wildlife Artistry",
@@ -67,7 +69,8 @@
     "className": "hackernews",
     "description": "A clone of the Y-Cominator's forum section (Hacker News) built in AngularJs",
     "links": {
-      "website": "http://michaelmiller.io/hackernewsclone"
+      "website": "http://hackernews.michaelmiller.io",
+      "repo": "https://github.com/michaeltmiller/michaeltmiller.github.io"
     },
     "slug": "hackernews",
     "title": "Hacker News Clone",

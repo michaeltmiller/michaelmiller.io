@@ -14,7 +14,9 @@ const ProjectIntro = ({ media, project }) => (
       <h1>{project.title}</h1>
       <p>{project.description}</p>
       {project.links.website && <OutboundLink to={project.links.website}>View website</OutboundLink>}
-
+      {project.links.repo && <OutboundLink to={project.links.repo}>
+          <Icon name="github" />
+        </OutboundLink>}
     </div>
     <div className={styles.media}>
       {media}

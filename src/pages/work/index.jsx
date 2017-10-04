@@ -41,6 +41,7 @@ query AllProjectQuery {
             }
             links{
               website
+              repo
             }
             slug
             theme{

@@ -79,6 +79,7 @@ query ProjectPageQuery($slug: String!) {
         }
         links{
             website
+            repo
         }
         slug
         theme{

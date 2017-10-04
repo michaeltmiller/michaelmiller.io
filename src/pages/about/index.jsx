@@ -17,7 +17,7 @@ const About = ({ location }) => (
       <div className={styles.about}>
         <section className={styles.intro}>
           <h1>Hello world.</h1>
-          <p>I'm a web developer with a facsincation in all things modern web devopment. Currently located in Salt Lake City, Utah.</p>
+          <p>I'm a web developer with a fascination in all things modern web devopment. Currently located in Salt Lake City, Utah.</p>
           <p>After about of year of self directed learning I made the decision to enroll in DevMtn (Curriculum <OutboundLink to="https://devmountain.com/web-bootcamp-immersive#/curriculum">Here</OutboundLink>) to accelerate my progress towards making the jump into professional software development.</p>
           <p>When not actively expanding my skillset you can find me working on my extremely mediocre golf swing or listening to a podcast.</p>
           <p>If you have a project or role in mind, <Link to="/contact">get in touch</Link>.</p>
